@@ -1,0 +1,17 @@
+<form  method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">submit</button>
+</form>
+
+<!-- <form method="POST">
+    {%csrf_token%}
+    {{form2.as_p}}
+    <button type="submit">submit</button>
+</form> -->
+
+<!-- <form  method="POST">
+    {% csrf_token %}
+    {{ form3.as_p }}
+    <button type="submit">submit</button>
+</form> -->
